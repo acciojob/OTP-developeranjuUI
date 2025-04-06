@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.code-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.code {
+  width: 40px;
+  height: 60px;
+  font-size: 32px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.note {
+  font-size: 14px;
+  color: grey;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
